@@ -1,0 +1,45 @@
+{
+  "name": "passgen-cli2",
+  "version": "1.1.0",
+  "description": "Command-line interface for passgen library",
+  "keywords": [
+    "password",
+    "generator",
+    "pass",
+    "random",
+    "token",
+    "CSPRNG",
+    "cryptographically",
+    "secure",
+    "token",
+    "session"
+  ],
+  "author": "Sasa Djolic <sasa.djolic@gmail.com> (https://www.linkedin.com/in/sasadjolic/)",
+  "contributors": [
+    "Sasa Djolic <sasa.djolic@gmail.com> (https://www.linkedin.com/in/sasadjolic/)"
+  ],
+  "bugs": {
+    "url": "http://github.com/sasadjolic/passgen-cli/issues"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sasadjolic/passgen-cli.git"
+  },
+  "main": "lib/passgen",
+  "directories": {
+    "lib": "./lib"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "commander": "^2.15.1",
+    "passgen": "^1.1.0"
+  },
+  "engines": [
+    "node >= 0.4"
+  ],
+  "scripts": {},
+  "bin": {
+    "passgen": "./passgen.js"
+  }
+}
